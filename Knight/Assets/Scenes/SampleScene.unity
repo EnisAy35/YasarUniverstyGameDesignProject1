@@ -222,6 +222,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -347,6 +348,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e2d78b250a64442a20d24bf001c8ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
+  target: {fileID: 1865045684}
+  smoothSpeed: 1
+  offset: {x: 0, y: 4, z: -1}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -568,25 +584,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 775581703}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f224b366f517d9441bb54d9c4b8f53e2, type: 3}
+  m_Script: {fileID: 11500000, guid: d180d1d3ff1cae34a97c532631fb92d3, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: "Assembly-CSharp::\u0130nGameParalax"
-  backGroundElements:
-  - backGroundSprite: {fileID: 1034497118}
-    scrollSpeed: 0.1
-    spriteMaterial: {fileID: 0}
-  - backGroundSprite: {fileID: 1402466984}
-    scrollSpeed: 0.2
-    spriteMaterial: {fileID: 0}
-  - backGroundSprite: {fileID: 728513029}
-    scrollSpeed: 0.3
-    spriteMaterial: {fileID: 0}
-  - backGroundSprite: {fileID: 1981715766}
-    scrollSpeed: 0.4
-    spriteMaterial: {fileID: 0}
-  - backGroundSprite: {fileID: 198801850}
-    scrollSpeed: 0.5
-    spriteMaterial: {fileID: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleParallax
+  layers:
+  - {fileID: 1034497119}
+  - {fileID: 1402466983}
+  - {fileID: 728513028}
+  - {fileID: 1981715765}
+  - {fileID: 198801849}
+  scrollSpeeds:
+  - 0.1
+  - 0.2
+  - 0.3
+  - 0.4
+  - 0.5
 --- !u!1001 &874295619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1039,6 +1051,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+--- !u!4 &1865045684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8413529789942519730, guid: a4b4a6d32bcb19248a754d6602ffc7e4, type: 3}
+  m_PrefabInstance: {fileID: 1668845479}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1981715764
 GameObject:
   m_ObjectHideFlags: 0

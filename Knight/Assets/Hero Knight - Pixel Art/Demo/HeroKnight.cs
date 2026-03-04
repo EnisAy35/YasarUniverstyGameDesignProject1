@@ -83,13 +83,13 @@ public class HeroKnight : MonoBehaviour {
         // additional devices (gamepad, etc.) can be added here
 
         // Swap direction of sprite depending on walk direction
-        if (inputX > 0)
+        if (inputX > 0 & canMove)
         {
             GetComponent<SpriteRenderer>().flipX = false;
             m_facingDirection = 1;
         }
             
-        else if (inputX < 0)
+        else if (inputX < 0 & canMove)
         {
             GetComponent<SpriteRenderer>().flipX = true;
             m_facingDirection = -1;

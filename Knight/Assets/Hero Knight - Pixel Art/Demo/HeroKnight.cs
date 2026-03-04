@@ -28,11 +28,12 @@ public class HeroKnight : MonoBehaviour {
     private float               m_delayToIdle = 0.0f;
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
-
+    private bool canMove;
 
     // Use this for initialization
     void Start ()
     {
+        canMove = true;
         swordHitBox.SetActive(false);
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
@@ -95,7 +96,7 @@ public class HeroKnight : MonoBehaviour {
         }
 
         // Move
-        if (!m_rolling )
+        if (!m_rolling && canMove)
             m_body2d.linearVelocity = new Vector2(inputX * m_speed, m_body2d.linearVelocity.y);
 
         //Set AirSpeed in animator
@@ -207,13 +208,21 @@ public class HeroKnight : MonoBehaviour {
     public void AE_SwordAttackOn()
     {
         if (swordHitBox != null)
+        {
+            canMove = false;
             swordHitBox.SetActive(true);
+        }
+         
     }
 
     // Hitbox'ı kapatmak için (Animasyonun sonunda çağrılacak)
     public void AE_SwordAttackOff()
     {
         if (swordHitBox != null)
+        {
+            canMove = true;
             swordHitBox.SetActive(false);
+        }
+            
     }
 }

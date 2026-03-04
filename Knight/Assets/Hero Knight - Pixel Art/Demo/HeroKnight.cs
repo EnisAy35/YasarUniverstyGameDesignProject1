@@ -9,6 +9,8 @@ public class HeroKnight : MonoBehaviour {
     [SerializeField] float      m_rollForce = 6.0f;
     [SerializeField] bool       m_noBlood = false;
     [SerializeField] GameObject m_slideDust;
+    
+    [SerializeField] private GameObject swordHitBox;
 
     private Animator            m_animator;
     private Rigidbody2D         m_body2d;
@@ -26,11 +28,13 @@ public class HeroKnight : MonoBehaviour {
     private float               m_delayToIdle = 0.0f;
     private float               m_rollDuration = 8.0f / 14.0f;
     private float               m_rollCurrentTime;
-
+    private bool canMove;
 
     // Use this for initialization
     void Start ()
     {
+        canMove = true;
+        swordHitBox.SetActive(false);
         m_animator = GetComponent<Animator>();
         m_body2d = GetComponent<Rigidbody2D>();
         m_groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_HeroKnight>();
@@ -79,20 +83,20 @@ public class HeroKnight : MonoBehaviour {
         // additional devices (gamepad, etc.) can be added here
 
         // Swap direction of sprite depending on walk direction
-        if (inputX > 0)
+        if (inputX > 0 & canMove)
         {
             GetComponent<SpriteRenderer>().flipX = false;
             m_facingDirection = 1;
         }
             
-        else if (inputX < 0)
+        else if (inputX < 0 & canMove)
         {
             GetComponent<SpriteRenderer>().flipX = true;
             m_facingDirection = -1;
         }
 
         // Move
-        if (!m_rolling )
+        if (!m_rolling && canMove)
             m_body2d.linearVelocity = new Vector2(inputX * m_speed, m_body2d.linearVelocity.y);
 
         //Set AirSpeed in animator
@@ -199,5 +203,26 @@ public class HeroKnight : MonoBehaviour {
             // Turn arrow in correct direction
             dust.transform.localScale = new Vector3(m_facingDirection, 1, 1);
         }
+    }
+    // Hitbox'ı açmak için (Animasyonun vuruş karesinde çağrılacak)
+    public void AE_SwordAttackOn()
+    {
+        if (swordHitBox != null)
+        {
+            canMove = false;
+            swordHitBox.SetActive(true);
+        }
+         
+    }
+
+    // Hitbox'ı kapatmak için (Animasyonun sonunda çağrılacak)
+    public void AE_SwordAttackOff()
+    {
+        if (swordHitBox != null)
+        {
+            canMove = true;
+            swordHitBox.SetActive(false);
+        }
+            
     }
 }

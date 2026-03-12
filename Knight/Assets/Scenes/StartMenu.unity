@@ -132,7 +132,6 @@ GameObject:
   - component: {fileID: 126681204}
   - component: {fileID: 126681203}
   - component: {fileID: 126681207}
-  - component: {fileID: 126681208}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -249,37 +248,12 @@ MonoBehaviour:
   - {fileID: 2070317674}
   - {fileID: 1436052984}
   layerSpeedMultiplier:
-  - 10
-  - 8
-  - 6
-  - 4
-  - 2
+  - 1
+  - 0.8
+  - 0.7
+  - 0.6
+  - 0.5
   imageWidth: 1920
---- !u!114 &126681208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 126681202}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b157c56e929113741b74e7f5c17e83c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UIBackgroundSwitcher
-  backgroundNum: 5
-  layerSprites:
-  - {fileID: 21300000, guid: c923db515dd60ec4e9cd1f350be245a9, type: 3}
-  - {fileID: 21300000, guid: 442d8366ad5d42f46acfc9133b342c22, type: 3}
-  - {fileID: 21300000, guid: b670707b2788d99448bbb478fc248530, type: 3}
-  - {fileID: 21300000, guid: b5b8e73cc720ab446a25f00fc5ae7dc6, type: 3}
-  - {fileID: 21300000, guid: 01c1e211013f19a479f0e2c12fea10a2, type: 3}
-  layerObjects:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!1 &164200898
 GameObject:
   m_ObjectHideFlags: 0

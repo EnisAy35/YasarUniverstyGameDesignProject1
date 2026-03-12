@@ -3454,3 +3454,127 @@ Memory consumption went from 162.9 MB to 158.1 MB.
 Total: 12.821000 ms (FindLiveObjects: 0.863900 ms CreateObjectMapping: 0.702500 ms MarkObjects: 6.809100 ms  DeleteObjects: 4.443900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 635.026016 seconds.
+  path: Assets/Scenes/StartMenu.unity
+  artifactKey: Guid(d89651ea34d229d499e99bab9ec95972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/StartMenu.unity using Guid(d89651ea34d229d499e99bab9ec95972) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6188d9447d5045b7f0b587f200feab37') in 0.5300435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_3.png
+  artifactKey: Guid(ca6841502e6bca24187cacb218fd5561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_3.png using Guid(ca6841502e6bca24187cacb218fd5561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee0ec68a3746b85c00dacb6335524876') in 0.1900461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_2.png
+  artifactKey: Guid(b670707b2788d99448bbb478fc248530) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_2.png using Guid(b670707b2788d99448bbb478fc248530) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a76cacfb0d7fedccf969940d3dbe34ae') in 0.0321089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_4.png
+  artifactKey: Guid(17729fe1353b2f247bf96445ab7798b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_4.png using Guid(17729fe1353b2f247bf96445ab7798b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18b32742f2fef4ebb46c988882da017d') in 0.0270955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png
+  artifactKey: Guid(429517ea1b1287a47952cd5cd8261d74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png using Guid(429517ea1b1287a47952cd5cd8261d74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86159c93f4116d491d49a577c2d82720') in 0.0281178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_2.png
+  artifactKey: Guid(f742986c8cfb0f9408700b55894aba73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_2.png using Guid(f742986c8cfb0f9408700b55894aba73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e040950215311e8f8a52f77634ae8d9') in 0.0190266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_1.png
+  artifactKey: Guid(151eef41825813d4f96dd0d4c8ecdc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_1.png using Guid(151eef41825813d4f96dd0d4c8ecdc2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '31812e1dab414e2a90dba7b6dcde0c07') in 0.0289172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/Gemini_Generated_Image_euggz4euggz4eugg-removebg-preview.png
+  artifactKey: Guid(52e3f6218687ff54c9c8f18e19c1a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Gemini_Generated_Image_euggz4euggz4eugg-removebg-preview.png using Guid(52e3f6218687ff54c9c8f18e19c1a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca6c2ea0c1d571a39286cdba868351ec') in 0.1641607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background
+  artifactKey: Guid(795d94a475082034f846273d1891e740) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background using Guid(795d94a475082034f846273d1891e740) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '404901ba99efe6ec71460fd9920ebfed') in 0.0092937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_4.png
+  artifactKey: Guid(0ceb3b7f07f8bff499799cb7cfa69fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_4.png using Guid(0ceb3b7f07f8bff499799cb7cfa69fcd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '235a84f934969313c86c0490f67c32c6') in 0.0224214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/Demo/Script
+  artifactKey: Guid(bb200273aa5a7cf4e8501f74df12957a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/Demo/Script using Guid(bb200273aa5a7cf4e8501f74df12957a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e38324787ec9a049eb962ccb8f859e26') in 0.0056771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_0.png
+  artifactKey: Guid(c923db515dd60ec4e9cd1f350be245a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_0.png using Guid(c923db515dd60ec4e9cd1f350be245a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a30ef784c5e027f22c999b6178ff7d7e') in 0.0202903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_3.png
+  artifactKey: Guid(b5b8e73cc720ab446a25f00fc5ae7dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_3.png using Guid(b5b8e73cc720ab446a25f00fc5ae7dc6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca874e752ac386ef7439496b0c87142d') in 0.0267581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scripts/UIBackgroundSwitcher.cs
+  artifactKey: Guid(b157c56e929113741b74e7f5c17e83c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/UIBackgroundSwitcher.cs using Guid(b157c56e929113741b74e7f5c17e83c3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8932283fba4072b05dfbb49cd0ad6b0') in 0.0095804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.489268 seconds.
+  path: Assets/Assets/Gemini_Generated_Image_euggz4euggz4eugg-removebg-preview.png
+  artifactKey: Guid(52e3f6218687ff54c9c8f18e19c1a23a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Assets/Gemini_Generated_Image_euggz4euggz4eugg-removebg-preview.png using Guid(52e3f6218687ff54c9c8f18e19c1a23a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43f51b0130b718f8f3f3f48671cf98ed') in 0.0186125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

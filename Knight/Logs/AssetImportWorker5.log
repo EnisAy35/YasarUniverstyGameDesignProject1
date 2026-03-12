@@ -543,3 +543,147 @@ Memory consumption went from 159.2 MB to 154.4 MB.
 Total: 20.040700 ms (FindLiveObjects: 1.434700 ms CreateObjectMapping: 1.305400 ms MarkObjects: 11.436900 ms  DeleteObjects: 5.861800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.944 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1815ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (579ms)
+		LoadAssemblies (423ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (678ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (210ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6914 unused Assets / (4.0 MB). Loaded Objects now: 7773.
+Memory consumption went from 159.3 MB to 155.3 MB.
+Total: 10.412500 ms (FindLiveObjects: 0.797800 ms CreateObjectMapping: 0.664900 ms MarkObjects: 6.068100 ms  DeleteObjects: 2.880500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  0.970 seconds
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.844 seconds
+Domain Reload Profiling: 1815ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (240ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (845ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (677ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (388ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6916 unused Assets / (4.1 MB). Loaded Objects now: 7778.
+Memory consumption went from 159.3 MB to 155.3 MB.
+Total: 9.828300 ms (FindLiveObjects: 0.851100 ms CreateObjectMapping: 0.793200 ms MarkObjects: 5.796900 ms  DeleteObjects: 2.385400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1296.485428 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_0.png
+  artifactKey: Guid(c923db515dd60ec4e9cd1f350be245a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background/2_Desert/Layer_0.png using Guid(c923db515dd60ec4e9cd1f350be245a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '684179a7abe8c62f515f1a111ce84e23') in 0.4724319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.168499 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_2.png
+  artifactKey: Guid(f742986c8cfb0f9408700b55894aba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_2.png using Guid(f742986c8cfb0f9408700b55894aba73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3aa8bb1ce0de6e3d987d5086f682885f') in 0.0341444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_4.png
+  artifactKey: Guid(17729fe1353b2f247bf96445ab7798b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background/!_Moutain/Layer_4.png using Guid(17729fe1353b2f247bf96445ab7798b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8827b5eefbbd533ebeeacd8f48861ec8') in 0.0329896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.741599 seconds.
+  path: Assets/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png
+  artifactKey: Guid(429517ea1b1287a47952cd5cd8261d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png using Guid(429517ea1b1287a47952cd5cd8261d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97a6a8a8721ccca79d2f75740e243f56') in 0.0220181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
